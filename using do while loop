@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a=12353;int i=1;
+    do
+    {
+        i=i+1;
+    }while(i<=(sizeof(a)));
+    printf("size of a is %d",i);
+    
+    return 0;
+}
