@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a;
+    printf("Enter the marks: ");
+    scanf("%d",&a);
+    if((a>90)&&(a<100))
+    {
+        printf("Excellent");
+    }
+    else if((a>80)&&(a<90))
+    {
+        printf("Very good");
+    }
+    else if((a>70)&&(a<80))
+    {
+        printf("Good");
+    }
+    else if((a>60)&&(a<70))
+    {
+        printf("Can do better");
+    }
+    else if((a>50)&&(a<60))
+    {
+        printf("Average");
+    }
+    else if((a>40)&&(a<50))
+    {
+        printf("Below Average");
+    }
+    else if(a<40)
+    {
+        printf("FAIL !!!");
+    }
+    return 0;
+}
